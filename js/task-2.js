@@ -27,7 +27,7 @@ const images = [
 const gallery = document.querySelector('.gallery');
 const createGalleryTemplate = gallerryInfo => {
   return `<li>
-  <img src ="${gallerryInfo.url}" alt ="${gallerryInfo.alt}" class = 'gallery-list-image'/>
+  <img src="${gallerryInfo.url}" alt="${gallerryInfo.alt}" class='gallery-list-image'/>
   </li>`;
 };
 const galleryImagesTemplate = images
