@@ -7,6 +7,6 @@ refs.nameInput.addEventListener('input', () => {
   if (inputText === '') {
     refs.nameOutput.textContent = 'Anonymous';
   } else {
-    refs.nameOutput.textContent = refs.nameInput.value;
+    refs.nameOutput.textContent = inputText;
   }
 });
